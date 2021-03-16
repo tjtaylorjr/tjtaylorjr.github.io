@@ -1966,6 +1966,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		header p {
 			position: relative;
 			top: -1em;
@@ -2706,7 +2707,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/sunsetpalms.jpg");
+		background-image: url("images/top-3200.svg"),url("images/overlay.png"), url("../../images/sunsetpalms.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2714,6 +2715,9 @@ input, select, textarea {
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 		#header:before, #header:after {
@@ -3013,7 +3017,7 @@ input, select, textarea {
 		/* Feature */
 
 			.feature {
-				height: 18em;
+				height: 15em;
 			}
 
 				.feature .content {
