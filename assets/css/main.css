@@ -2614,7 +2614,7 @@ input, select, textarea {
 
 	.feature {
 		position: relative;
-		height: 17em;
+		height: 14em;
 	}
 
 		.feature:after {
@@ -3017,7 +3017,7 @@ input, select, textarea {
 		/* Feature */
 
 			.feature {
-				height: 15em;
+				height: 14em;
 			}
 
 				.feature .content {
@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 				.feature .image {
 					float: none;
-					height: 15em;
+					height: 19em;
 					width: 100%;
 				}
 
