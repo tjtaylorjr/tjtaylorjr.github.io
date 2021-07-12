@@ -2937,6 +2937,10 @@ input, select, textarea {
 
 /* Wide */
 
+	#about-two {
+		padding: 0;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -3229,6 +3233,10 @@ input, select, textarea {
 
 			#main {
 				padding: 2em 0 2em 0;
+			}
+
+			#about-two {
+				padding: 2em;
 			}
 
 	}
