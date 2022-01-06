@@ -187,6 +187,7 @@ input, select, textarea {
 		display: flex;
 		justify-content: center;
 	}
+	
 	.resume-button {
 		justify-content: center;
 		align-items: center;
