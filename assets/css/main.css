@@ -190,7 +190,7 @@ input, select, textarea {
 	.resume-button {
 		display: flex;
 		width: 65px;
-		height: 25px;
+		height: 30px;
 		/* border: .5px solid white; */
 		/* border: solid 1px _palette(border); */
 		border: solid 1px rgba(224, 224, 224, 0.75);
@@ -198,9 +198,16 @@ input, select, textarea {
 		cursor: pointer;
 		justify-content: center;
 		align-items: center;
-		color: #00483D;
 		background: white;
 		font-weight: bold;
+	}
+
+	.resume-button a {
+		text-decoration: none;
+	}
+
+	.resume-button span {
+		color: #00483D;
 	}
 /* Container */
 
