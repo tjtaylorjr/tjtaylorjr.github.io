@@ -188,26 +188,26 @@ input, select, textarea {
 		justify-content: center;
 	}
 	.resume-button {
-		display: flex;
-		width: 65px;
-		height: 30px;
-		/* border: .5px solid white; */
-		/* border: solid 1px _palette(border); */
-		border: solid 1px rgba(224, 224, 224, 0.75);
-		border-radius: 4px;
-		cursor: pointer;
 		justify-content: center;
 		align-items: center;
-		background: white;
-		font-weight: bold;
 	}
 
-	.resume-button a {
+	#resume-button-link {
 		text-decoration: none;
 	}
 
-	.resume-button span {
+	.resume-button-link span {
+		display: flex;
 		color: #00483D;
+		background: white;
+		width: 70px;
+		height: 25px;
+		border: solid 1px rgba(224, 224, 224, 0.75);
+		border-radius: 4px;
+		cursor: pointer;
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
 	}
 /* Container */
 
